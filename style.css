@@ -7,9 +7,9 @@
 body {
     font-family: 'Times New Roman';
     font-weight: 400;
-    font-size: clamp(0.313rem, 0.12rem + 0.96vw, 1.125rem);
+    font-size: clamp(0.438rem, 0.215rem + 1.11vw, 1.375rem);
     line-height: 140%;
-    /* 5 до 18 */
+    /* 5 до 22 */
     background-color: #ffffff;
     padding: 1% 23%;
 }
@@ -50,7 +50,7 @@ p {
 }
 h2{
     font-weight: 400;
-    font-size: clamp(0.313rem, -0.132rem + 2.22vw, 2.188rem); /* 7 до 32 */
+    font-size: clamp(0.438rem, -0.022rem + 2.3vw, 2.375rem); /* 7 до 38 */
     margin: 7vh 0;
     line-height: 120%;
     
