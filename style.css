@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-size:clamp(0.25rem, 0.065rem + 0.98vw, 1.063rem);
+    line-height: 140%;
+    /* 5 до 16 */
+    background-color: #ffffff;
+    padding: 1% 23%;
+}
+
+
+header img{
+    display:inline-block;
+    width: 100%;
+    object-fit: contain;
+    margin:0 auto;
+}
+
+header h1 {
+    font-size:clamp(0.625rem, 0.057rem + 3.03vw, 3.125rem);
+    /* 10 to 50 */
+    margin: 30px 0;
+    font-weight: 400;
+    line-height: 97%;
+}
+
+header p {
+    font-size: clamp(0.438rem, 0.31rem + 0.68vw, 1.125rem);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    
+}
+
+main {
+    margin: 20px 0;
+}
+
+p {
+    margin: 4vh 0;
+    margin-right: 25%;
+    
+    letter-spacing: 0.01vw;
+    word-spacing: 0.02vw;
+}
+h2{
+    font-weight: 400;
+    font-size: clamp(0.375rem, 0.006rem + 1.97vw, 2rem); /* 7 до 32 */
+    margin: 7vh 0;
+    line-height: 120%;
+    
+}
+.ramka{
+    margin-top: 6vh;
+    margin-right: 25%;
+    padding: 5% ;
+    
+    padding-left: 15%;
+    border: 2px solid #d3d3d3 ;
+    border-radius: 30px;
+}
+
+h3{
+    font-size: 20px;
+    line-height: 160%;
+    font-weight: 400;
+    letter-spacing: 0.02vw;
+    word-spacing: 0.01vw;
+
+}
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+span {
+    color: #0066cc;
+    text-decoration: none;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+
